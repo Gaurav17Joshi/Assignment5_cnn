@@ -12,8 +12,8 @@ from torch.utils.data.sampler import SubsetRandomSampler
 from tqdm import tqdm 
 import time
 
-torch.manual_seed(45)
-np.random.seed(45)
+torch.manual_seed(37)
+np.random.seed(37)
 # Setting the device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
